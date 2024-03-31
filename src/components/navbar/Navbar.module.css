@@ -1,0 +1,55 @@
+.topUL {
+  display: flex;
+  justify-content: space-around;
+}
+.topUL li {
+  position: relative;
+}
+.topUL li:hover ul {
+  display: block;
+  background-color: black;
+  color: white;
+}
+.topUL a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+p {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+.bottomUL {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.bottomUL li {
+  width: 10rem;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 1px solid rgb(30, 175, 30);
+  cursor: pointer;
+}
+.bottomUL li:hover {
+  background-color: green;
+}
+@media screen and (max-width: 575px) {
+  .topUL {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .topUL li {
+    width: 80%;
+    border-bottom: 1px solid rgb(30, 175, 30);
+  }
+}

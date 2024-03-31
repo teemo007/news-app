@@ -1,0 +1,44 @@
+.serachPage {
+  width: 100%;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+span {
+  color: red;
+}
+.searchNews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.searchNews h1 {
+  color: red;
+  font-size: 2rem;
+}
+.noFound {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100%;
+}
+.img {
+  width: 50%;
+  height: 50%;
+  padding: 2rem;
+  user-select: none;
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}

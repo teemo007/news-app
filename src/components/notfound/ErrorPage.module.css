@@ -1,0 +1,14 @@
+#errorPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.p{
+    color: black;
+    font-size: 2rem;
+}
+.a{
+    font-size: xx-large;
+}
