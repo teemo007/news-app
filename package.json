@@ -1,12 +1,12 @@
 {
-  "homepage": "https://teemo007.github.io/news-app/",
+  "homepage": "https://teemo007.github.io/news-app",
   "name": "zijie-news-context",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --env GENERATE_SOURCEMAP=false",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
